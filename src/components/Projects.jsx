@@ -1,7 +1,7 @@
 import {PROJECTS} from "../constants/index"
 const Projects = () => {
     return (
-        <div className="pb-4">
+        <div className="pb-4 border-t border-stone-200/20">
             <h2 className="my-20 text-center text-4xl">Projects</h2>
             <div>
                 {PROJECTS.map((project, index) => {

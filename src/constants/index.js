@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import yelpCamp from "../assets/projects/yelpCamp.jpg";
+import project3 from "../assets/projects/chromext.png";
+import fileShare from "../assets/projects/fileShare.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Vue.js, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -9,68 +8,50 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: "July 2023 – Sept 2024",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Provakil",
+    location: "Pune, Maharashtra",
+    description: `Optimized export functionality using pandas and RabbitMQ, reducing processing time by 36%—from 14 minutes to 9 minutes—for approximately 20,000 resources, resulting in substantial time savings for users. Designed and implemented an event-based mailing system, empowering users to send emails based on resource updates or creation events. Developed and integrated an autofill feature for forms, streamlining data entry processes and improving user experience by reducing manual input effort.`,
+    technologies: ["Vue.js", "Sails.js", "Node.js", "HTML/CSS", "RabbitMQ", "JavaScript", "ElasticSearch", "MongoDB"],
+  },
+  {
+    year: "Jan 2023 – June 2023",
+    role: "Software Engineer Intern",
+    company: "Provakil",
+    location: "Pune, Maharashtra",
+    description: `Worked as part of the configurator team, contributing to both frontend and backend development. Collaborated with team members to develop and enhance various features, such as External Forms and Duplicacy Checking in resources, while also developing APIs for new events to enable seamless integration with external systems.`,
+    technologies: ["Vue.js", "Sails.js", "Node.js", "HTML/CSS", "JavaScript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "YelpCamp",
+    image: yelpCamp,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a full-stack web application for campsite reviews and bookings, featuring user authentication, CRUD operations for reviews and comments, and responsive design. Implemented RESTful API routes and designed a scalable MongoDB schema to efficiently store and retrieve user data, campsite information, reviews, and comments. Utilized Express middleware for error handling and user authorization, ensuring secure access to protected routes and enhancing overall user experience.",
+    technologies: ["Express", "Node.js", "MongoDB", "EJS", "HTML/CSS", "Bootstrap"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "File Sharing App",
+    image: fileShare,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Engineered a robust file-sharing platform allowing users to upload, store, and generate shareable links for various files. Developed a RESTful API using Express to handle file uploads, storage in MongoDB, and secure file retrieval. Implemented user authentication and file access controls to ensure data privacy and security.",
+    technologies: ["Express", "Node.js", "MongoDB", "EJS", "HTML/CSS", "Multer"],
   },
   {
-    title: "Portfolio Website",
+    title: "CSGO PriceChecker",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed and developed a Chrome extension to aggregate real-time pricing data from multiple CS:GO trading websites, providing users with comprehensive market information. Implemented asynchronous JavaScript to fetch and process data from various APIs, ensuring fast and efficient price comparisons.",
+    technologies: ["JavaScript", "HTML/CSS", "Chrome Extensions API", "RESTful APIs"],
   },
 ];
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Gorakhpur, Uttar Pradesh",
+  phoneNo: "+91 6378000206",
+  email: "pvtabhay13901@gmail.com",
 };

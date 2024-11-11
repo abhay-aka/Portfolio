@@ -14,9 +14,9 @@ const Navbar = () => {
               <a href="/" aria-label="Home" className="text-decoration-none">
                 <div className="flex items-center justify-center">
                   <div className="flex items-baseline">
-                    <span className="text-4xl font-extrabold text-white">A</span>
-                    <span className="text-5xl font-black text-white mx-1">K</span>
-                    <span className="text-4xl font-extrabold text-white">A</span>
+                    <span className="text-4xl font-bold text-white">A</span>
+                    <span className="text-5xl font-bold text-white mx-1">K</span>
+                    <span className="text-4xl font-bold text-white">A</span>
                   </div>
                 </div>
               </a>
@@ -41,10 +41,10 @@ const Navbar = () => {
                     aria-label="LinkedIn">
                         <FaInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/abhay" 
+                <a href="https://leetcode.com/u/abhay13901/" 
                     target="_blank"
                     rel="noopener noreferrer" 
-                    aria-label="LinkedIn">
+                    aria-label="Leetcode">
                         <SiLeetcode />
                 </a>
             </div>
