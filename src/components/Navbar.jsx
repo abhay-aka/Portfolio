@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
 
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https://www.linkedin.com/in/abhay" 
+                <a href="https://www.linkedin.com/in/abhay-kumar-anand-1a7099192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                     target="_blank"
                     rel="noopener noreferrer" 
                     aria-label="LinkedIn">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     aria-label="GitHub">
                         <FaGithub />
                 </a>
-                <a href="https://www.instagram.com/abhayyy139" 
+                <a href="https://www.instagram.com/abhayy139/" 
                     target="_blank"
                     rel="noopener noreferrer" 
                     aria-label="LinkedIn">
